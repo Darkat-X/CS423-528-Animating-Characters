@@ -591,7 +591,7 @@ Transform:
   - {fileID: 936037436}
   - {fileID: 98077183}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &219662176
 GameObject:
@@ -857,7 +857,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &450357733
 GameObject:
@@ -1075,6 +1075,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594366610}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &621293896 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 293494580922743945, guid: a4b7813b0dae0ea47bc9090a13521b12,
+    type: 3}
+  m_PrefabInstance: {fileID: 2131533925304862787}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &621293897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621293896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da49d569aa1c564792ba514893e484a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wayfindingTarget: {fileID: 442021869}
+  myText: {fileID: 1317210684}
 --- !u!1 &634895107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,7 +1511,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &708380823
 GameObject:
@@ -1641,7 +1661,7 @@ Transform:
   - {fileID: 688571388}
   - {fileID: 708380824}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &923543574
 GameObject:
@@ -1942,7 +1962,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -2972,5 +2992,21 @@ PrefabInstance:
       propertyPath: myText
       value: 
       objectReference: {fileID: 1317210684}
-    m_RemovedComponents: []
+    - target: {fileID: 293494580922743944, guid: a4b7813b0dae0ea47bc9090a13521b12,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 293494580922743944, guid: a4b7813b0dae0ea47bc9090a13521b12,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 293494580922743944, guid: a4b7813b0dae0ea47bc9090a13521b12,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 293494580922743947, guid: a4b7813b0dae0ea47bc9090a13521b12, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4b7813b0dae0ea47bc9090a13521b12, type: 3}
