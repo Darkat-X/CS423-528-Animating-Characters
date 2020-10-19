@@ -9,6 +9,7 @@ public class EvaScript : MonoBehaviour
     public float z_vel;
     public float timeScale;
 
+
     void Start ()
     {
         anim = GetComponent<Animator>();

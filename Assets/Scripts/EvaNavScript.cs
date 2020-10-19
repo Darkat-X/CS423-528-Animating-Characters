@@ -7,7 +7,6 @@ public class EvaNavScript : MonoBehaviour
     Animator anim;
     public Transform target;
 
-
     void Start ()
     {
         anim = GetComponent<Animator>();
