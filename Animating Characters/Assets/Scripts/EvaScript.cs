@@ -9,6 +9,7 @@ public class EvaScript : MonoBehaviour
     public float z_vel;
     public float timeScale;
     public float Turn;
+    public float Strafe;
 
 
     void Start ()
@@ -25,6 +26,7 @@ public class EvaScript : MonoBehaviour
         float x_vel = Input.GetAxis("Horizontal");
         float y_vel = Input.GetAxis("Vertical");
         float Turn = Input.GetAxis("Turn");
+        float Strafe = Input.GetAxis("Strafe");
         
         if(Input.GetKey("left shift"))
         {
@@ -41,6 +43,7 @@ public class EvaScript : MonoBehaviour
 
 
         anim.SetFloat ("Turn",Turn);
+        anim.SetFloat ("Strafe",Strafe);
         anim.SetFloat ("x_vel",x_vel);
         anim.SetFloat ("y_vel",y_vel);
         anim.SetFloat ("Run",RunParam);
